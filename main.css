@@ -1,0 +1,257 @@
+*{
+ padding: 0;margin: 0;box-sizing: border-box;
+}
+
+body{
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #dadada;
+}
+.all{
+ display: flex;
+background-color: rgba(255,255,255,0.4);
+ border-radius: 10px;
+ box-shadow: 1px 1px 2px 2px;
+ overflow: hidden;
+ border: 2px solid rgb(32, 203, 233);
+}
+.appmusic{
+ width: 400px;
+ height: 500px;
+ border-radius: 10px;
+ box-shadow: 1px 1px 2px 3px;
+ padding: 20px;
+ 
+}
+
+.nutbattat button{
+ width: 100px;
+ height: 30px;
+ border-radius: 5px;
+ border: 1px solid black;
+ box-shadow: 1px 1px;
+}
+.hinhnen{
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+ border: 1px solid white;
+ overflow: hidden;
+ margin: auto;
+ margin-top: 20px;
+ 
+}
+.animation{
+ animation: quayhinh 10s linear infinite;
+}
+@keyframes quayhinh {
+ from{
+  transform: rotate(0deg);
+ }to{
+  transform: rotate(360deg);
+ }
+}
+.hinhnen img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+.tenbaihat{
+ font-size: 25px;
+ text-align: center;
+ margin-top: 15px;
+ font-weight: 700;
+}
+.dieuchinhamthanh,.auto{
+ -webkit-appearance: none;
+ height: 10px;
+border-radius: 4px;
+ background:aquamarine;
+
+ overflow: hidden;
+}
+.auto{
+ background:white;
+}
+.dieuchinhamthanh::-webkit-slider-thumb,.auto::-webkit-slider-thumb{
+ -webkit-appearance: none;
+ height: 10px;
+background: greenyellow;width: 5px;
+ background: white;
+box-shadow: -400px 0 0 400px greenyellow;
+}
+.auto::-webkit-slider-thumb{
+ background: rgb(225, 35, 82);width: 5px;
+ box-shadow: -400px 0 0 400px rgb(225, 35, 82);
+
+}
+.amthanh i{
+ color: white;
+}
+.thanhhienthi input{
+ width: 300px;
+margin-left: 30px;
+margin-top: 20px;
+}
+.cacnutlenh{
+ display: flex;
+ justify-content: space-around;
+ margin-top: 20px;
+ font-size: 25px;
+
+}
+.nutlui,.nuttien{
+ color: aqua;
+}
+.nutplaynhac{
+ color: white;
+}
+.nutmusic,.quaylai{
+ color: aquamarine;
+}
+.danhsachbaihat{
+ width: 400px;
+ height: 500px;
+border: 1px solid black;
+ padding: 20px;
+ display: none;
+ overflow: hidden;
+ overflow-y: auto;
+}
+.baihat{
+ display: flex;
+ width: 100%;
+height: 50px;
+border-radius: 5px;
+align-items: center;
+font-size: 18px;
+background-color: white;
+border: 1px solid black;
+margin-bottom: 10px;
+box-shadow: 1px 1px 3px 1px;
+}
+.sothutu{
+ font-size: 20px;
+ font-weight: 700;
+ margin-left: 20px;
+}
+.hinh{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+overflow: hidden;
+margin-left: 20px;
+object-fit: cover;
+}
+.hing img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+.ten{
+width: 150px;
+ max-width: 200px;
+ margin-left: 20px;
+}
+.icon{
+ margin-left: 30px;
+ font-size: 25px;
+
+}
+.remove{
+ border: 0px;
+ box-shadow: 0px 0px ;
+ display: block;
+}
+.nutplaynhac{
+ border: 4px solid rgb(109, 189, 205);
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: -10px;
+}
+
+.amthanh{
+ margin-top: 20px;
+ 
+}
+.thoigian{
+ display: flex;
+ justify-content: space-between;
+ color: white;
+ font-weight: 700;
+}
+.tailenxuong{
+ height: 120px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: 190px;
+}
+.tailenxuongtwo{
+ height: 120px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: 50px;
+}
+.tailenxuong .thanhlenxuong,.tailenxuongtwo .thanhlenxuongtwo{
+ background: #f1f1f1;
+ height: 150%;
+ width: 10px;
+ margin: 0px 5px;
+ border-radius: 50px;
+ animation: hieuung 1.3s linear infinite;
+}
+@keyframes hieuung{
+ 50%{
+  height: 20%;
+  background: aqua;
+ }
+ 100%{
+  height: 100%;
+ }
+}
+.thanhlenxuong:nth-child(1){
+ animation-delay: 0s ;
+}
+.thanhlenxuong:nth-child(2){
+ animation-delay: 0.4s ;
+}
+.thanhlenxuong:nth-child(3){
+ animation-delay: 0.6s ;
+}
+.thanhlenxuong:nth-child(4){
+ animation-delay: 0.2s ;
+}
+.thanhlenxuong:nth-child(5){
+ animation-delay: 0.5s ;
+}
+.thanhlenxuong:nth-child(6){
+ animation-delay: 0.3s ;
+}
+.thanhlenxuong:nth-child(7){
+ animation-delay: 0.4s ;
+}
+/*  */
+.heading{
+ text-align: center;
+ font-size: 28px;
+ color: white;
+ font-weight: 800;
+ width: 200px;
+ height: 30px;
+ box-shadow: 1px 1px 2px 3px;
+ margin: auto;
+ border-radius: 5px;
+ border: 1px solid rgb(137, 238, 5);
+
+}
+.active{
+ color: red;
+}
